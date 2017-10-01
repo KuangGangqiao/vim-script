@@ -6,5 +6,8 @@ vimrc: default.vim
 vimrc: edit-mode.vim
 vimrc: daily-color.vim
 
+install:
+	cp vimrc ~/.vimrc
+
 clean:
 	rm vimrc
