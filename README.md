@@ -4,4 +4,7 @@ make
 
 Install
 =======
-cp vimrc ~/.vimrc
+- vimrc
+  cp vimrc ~/.vimrc
+- colors
+  ln -s path/to/vim-srcipt/clolrs ~/.vim/colors
