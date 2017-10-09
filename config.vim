@@ -20,8 +20,10 @@ let g:dailyColor = {
     \ "Wed": "rainbow_neon",
     \ "Thu": "sea",
     \ "Fri": "pink",
-    \ "Sta": "summerfruit256",
+    \ "Sta": "random-color",
     \ "Sun": "summerfruit256",
 \ }
 
 call GetTodayColor()
+
+map \r :colo random-color<CR>
