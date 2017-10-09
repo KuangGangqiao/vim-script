@@ -5,6 +5,7 @@ let s:mode = {}
 let s:mode["list"] = []
 let s:mode["dict"] = {}
 let s:mode["current"] = ""
+let s:mode["default"] = ""
 
 function s:mode.add(name, func)
     call add(self.list, a:name)
@@ -15,9 +16,10 @@ function s:mode.set_mode(name)
     let F = get(self.dict, a:name, v:none)
     if type(F) != type(function("tr"))
         echo "Error edit mode input"
-        return
+        return v:false
     endif
     let self.current=a:name
+    return v:true
 endfunction
 
 function s:mode.next_mode()
@@ -62,7 +64,6 @@ function s:EditWithSpace2()
 endfunction
 call s:mode.add("Space2", "s:EditWithSpace2")
 
-call s:mode.set_mode("Tab") " Tab on default
 function! EditWithAnother()
     if s:mode.current == "Tab"
         call s:mode.set_mode("Space")
@@ -71,25 +72,6 @@ function! EditWithAnother()
     endif
     call s:mode.format()
 endfunction
-
-let s:space_list = [
-    \'vim',
-    \'yaml',
-    \'scheme',
-    \'python',
-    \'markdown',
-    \'gitcommit',
-    \'matlab',
-\]
-
-let s:FiletypeConfig = {}
-function s:FiletypeConfig.get_edit_mode(type) dict
-    return get(self, a:type, "Tab")
-endfunction
-
-for key in s:space_list
-    let s:FiletypeConfig[key] = "Space"
-endfor
 
 function! EditWithNextMode()
     call s:mode.next_mode()
@@ -100,10 +82,27 @@ function! EditMode()
     echo "CurrentEditMode: " . s:mode.current
 endfunction
 
+let s:FiletypeConfig = {}
+let s:FiletypeConfig.default = ""
+function s:FiletypeConfig.get_edit_mode(type) dict
+    return get(self, a:type, self.default)
+endfunction
 
 function! EditWithFiletype()
-    if s:mode.current != s:FiletypeConfig.get_edit_mode(&filetype)
-        call EditWithAnother()
+    call s:mode.set_mode(s:FiletypeConfig.get_edit_mode(&filetype))
+    call s:mode.format()
+endfunction
+
+function! ConfigFiletype(mode, list)
+    for key in a:list
+        let s:FiletypeConfig[key] = a:mode
+    endfor
+endfunction
+
+function! DefaultEditMode(mode)
+    if s:mode.set_mode(a:mode)
+        let s:mode.default = a:mode
+        let s:FiletypeConfig.default = s:mode.default
     endif
 endfunction
 

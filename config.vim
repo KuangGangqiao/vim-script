@@ -1,6 +1,19 @@
 " ----------------------------------------------------------
 " Self Config
 " ----------------------------------------------------------
+call DefaultEditMode("Tab")
+
+let s:space_list = [
+    \'vim',
+    \'yaml',
+    \'scheme',
+    \'python',
+    \'markdown',
+    \'gitcommit',
+    \'matlab',
+\]
+call ConfigFiletype("Space", s:space_list)
+
 let g:dailyColor = {
     \ "Mon": "asmanian",
     \ "Tue": "null",
