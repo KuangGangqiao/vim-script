@@ -57,12 +57,13 @@ hi SpellRare guifg=#F9F9FF guibg=#192224 guisp=#192224 gui=underline ctermfg=189
 hi Comment guifg=#e86812 guibg=NONE guisp=NONE gui=italic ctermfg=166 ctermbg=NONE cterm=NONE
 hi Character guifg=#A1A6A8 guibg=NONE guisp=NONE gui=NONE ctermfg=248 ctermbg=NONE cterm=NONE
 hi Float guifg=#A1A6A8 guibg=NONE guisp=NONE gui=NONE ctermfg=248 ctermbg=NONE cterm=NONE
-hi Number guifg=#A1A6A8 guibg=NONE guisp=NONE gui=NONE ctermfg=248 ctermbg=NONE cterm=NONE
+hi Number guifg=#f08b48 guibg=NONE guisp=NONE gui=NONE ctermfg=215 ctermbg=NONE cterm=NONE
 hi Boolean guifg=#A1A6A8 guibg=NONE guisp=NONE gui=NONE ctermfg=248 ctermbg=NONE cterm=NONE
 hi Operator guifg=#BD9800 guibg=NONE guisp=NONE gui=bold ctermfg=1 ctermbg=NONE cterm=bold
 hi CursorLine guifg=#e08bad guibg=NONE guisp=NONE gui=underline ctermfg=175 ctermbg=NONE cterm=underline
 hi Union guifg=#ff8787 guibg=NONE guisp=NONE gui=NONE ctermfg=210 ctermbg=NONE cterm=NONE
 hi TabLineFill guifg=#262626 guibg=#d75f87 guisp=#d75f87 gui=bold ctermfg=235 ctermbg=168 cterm=bold
+hi Question guifg=#cf7fa8 guibg=NONE guisp=NONE gui=NONE ctermfg=175 ctermbg=NONE cterm=NONE
 hi WarningMsg guifg=#A1A6A8 guibg=#912C00 guisp=#912C00 gui=NONE ctermfg=248 ctermbg=88 cterm=NONE
 hi VisualNOS guifg=#ff87af guibg=#af8787 guisp=#af8787 gui=underline ctermfg=211 ctermbg=138 cterm=underline
 hi DiffDelete guifg=NONE guibg=#192224 guisp=#192224 gui=NONE ctermfg=NONE ctermbg=235 cterm=NONE
@@ -87,7 +88,7 @@ hi PMenu guifg=#ffafff guibg=#782c3b guisp=#782c3b gui=NONE ctermfg=219 ctermbg=
 hi SpecialKey guifg=#e06b83 guibg=NONE guisp=NONE gui=italic ctermfg=168 ctermbg=NONE cterm=NONE
 hi Constant guifg=#a183a1 guibg=NONE guisp=NONE gui=NONE ctermfg=139 ctermbg=NONE cterm=NONE
 hi Tag guifg=#BD9800 guibg=NONE guisp=NONE gui=NONE ctermfg=1 ctermbg=NONE cterm=NONE
-hi String guifg=#b39db3 guibg=NONE guisp=NONE gui=NONE ctermfg=249 ctermbg=NONE cterm=NONE
+hi String guifg=#f00074 guibg=NONE guisp=NONE gui=NONE ctermfg=198 ctermbg=NONE cterm=NONE
 hi PMenuThumb guifg=#e0b1d0 guibg=#f0b8f0 guisp=#f0b8f0 gui=NONE ctermfg=182 ctermbg=225 cterm=NONE
 hi MatchParen guifg=#f5d0d0 guibg=#c25b6c guisp=#c25b6c gui=bold ctermfg=224 ctermbg=167 cterm=bold
 hi LocalVariable guifg=#d9bacb guibg=NONE guisp=NONE gui=NONE ctermfg=182 ctermbg=NONE cterm=NONE
