@@ -13,18 +13,18 @@ function s:mode.add(name, func)
 endfunction
 
 function s:mode.set_mode(name)
-    let F = get(self.dict, a:name, v:none)
+    let F = get(self.dict, a:name, -1)
     if type(F) != type(function("tr"))
         echo "Error edit mode input"
-        return v:false
+        return 0
     endif
     let self.current=a:name
-    return v:true
+    return 1
 endfunction
 
 function s:mode.next_mode()
     if empty(self.list)
-        return v:none
+        return
     endif
     let cur = self.current
     let size = len(self.list)

@@ -24,8 +24,8 @@ let g:dailyColor = { }
 function GetTodayColor()
     let s:today = s:GetWeek()
     " let s:today = "Mon"
-    let s:todayScheme = get(g:dailyColor, s:today, v:none)
-    if type(v:none) == type(s:todayScheme)
+    let s:todayScheme = get(g:dailyColor, s:today, -1)
+    if type("") != type(s:todayScheme)
         return
     else
         execute "colo " . s:todayScheme
