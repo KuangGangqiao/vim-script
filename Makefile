@@ -1,12 +1,12 @@
-vimrc:
-	cat $^ > $@
+code += default.vim
+code += edit-mode.vim
+code += daily-color.vim
 
-vimrc: default.vim
-vimrc: edit-mode.vim
-vimrc: daily-color.vim
+config += config.vim
 
-# Append config in the end
-vimrc: config.vim
+vimrc: $(code) $(config)
+	cat $(code) > $@
+	cat $(config) >> $@
 
 install:
 	cp vimrc ~/.vimrc
