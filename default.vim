@@ -16,4 +16,7 @@ set list listchars=tab:»\ ,trail:.,extends:»,precedes:«
 set fdm=marker
 set modeline
 
+set scrolloff=5
+set autochdir
+
 filetype plugin indent on
