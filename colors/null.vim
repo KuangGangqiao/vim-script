@@ -89,7 +89,6 @@ hi ModeMsg guifg=#87ceeb guibg=NONE guisp=NONE gui=NONE ctermfg=117 ctermbg=NONE
 hi Define guifg=#20a0d0 guibg=NONE guisp=NONE gui=NONE ctermfg=38 ctermbg=NONE cterm=NONE
 hi Function guifg=#00ac55 guibg=NONE guisp=NONE gui=NONE ctermfg=35 ctermbg=NONE cterm=NONE
 hi FoldColumn guifg=#add8e6 guibg=#0d2349 guisp=#0d2349 gui=NONE ctermfg=152 ctermbg=17 cterm=NONE
-hi PreProc guifg=#20a0d0 guibg=NONE guisp=NONE gui=NONE ctermfg=38 ctermbg=NONE cterm=NONE
 hi Visual guifg=#add8e6 guibg=#001146 guisp=#001146 gui=NONE ctermfg=152 ctermbg=17 cterm=NONE
 hi MoreMsg guifg=#2e8b57 guibg=NONE guisp=NONE gui=NONE ctermfg=29 ctermbg=NONE cterm=NONE
 hi VertSplit guifg=#7f7f7f guibg=#466292 guisp=#466292 gui=NONE ctermfg=8 ctermbg=67 cterm=NONE
@@ -255,3 +254,4 @@ hi constant guifg=#96D9F1 guibg=NONE guisp=NONE gui=NONE ctermfg=153 ctermbg=NON
 hi method guifg=#F7F7F7 guibg=NONE guisp=NONE gui=NONE ctermfg=15 ctermbg=NONE cterm=NONE
 hi interpolation guifg=#2EB5C1 guibg=NONE guisp=NONE gui=NONE ctermfg=4 ctermbg=NONE cterm=NONE
 hi symbol guifg=#FAB1AB guibg=NONE guisp=NONE gui=NONE ctermfg=217 ctermbg=NONE cterm=NONE
+hi PreProc guifg=#20a0d0 guibg=NONE guisp=NONE gui=NONE ctermfg=38 ctermbg=NONE cterm=NONE

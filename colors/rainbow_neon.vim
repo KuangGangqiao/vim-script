@@ -78,7 +78,6 @@ hi ModeMsg guifg=#a0d0ff guibg=NONE guisp=NONE gui=NONE ctermfg=153 ctermbg=NONE
 hi Define guifg=#ffa8ff guibg=NONE guisp=NONE gui=NONE ctermfg=219 ctermbg=NONE cterm=NONE
 hi Function guifg=#40f8f8 guibg=NONE guisp=NONE gui=NONE ctermfg=87 ctermbg=NONE cterm=NONE
 hi FoldColumn guifg=#40c0ff guibg=#404040 guisp=#404040 gui=NONE ctermfg=81 ctermbg=238 cterm=NONE
-hi PreProc guifg=#ffa8ff guibg=NONE guisp=NONE gui=NONE ctermfg=219 ctermbg=NONE cterm=NONE
 hi Visual guifg=#b0ffb0 guibg=#008000 guisp=#008000 gui=NONE ctermfg=157 ctermbg=2 cterm=NONE
 hi MoreMsg guifg=#70ffc0 guibg=#8040ff guisp=#8040ff gui=NONE ctermfg=85 ctermbg=13 cterm=NONE
 hi VertSplit guifg=#707070 guibg=#c4c4c4 guisp=#c4c4c4 gui=NONE ctermfg=242 ctermbg=251 cterm=NONE
@@ -316,3 +315,4 @@ hi perlvarplain guifg=#aaaaaa guibg=#000000 guisp=#000000 gui=NONE ctermfg=248 c
 hi perlstatementstorage guifg=#ffffff guibg=#000000 guisp=#000000 gui=NONE ctermfg=15 ctermbg=NONE cterm=NONE
 hi perlvarplain2 guifg=#aaaaaa guibg=#000000 guisp=#000000 gui=NONE ctermfg=248 ctermbg=NONE cterm=NONE
 hi doxygenargumentword guifg=#0000ff guibg=#000000 guisp=#000000 gui=NONE ctermfg=21 ctermbg=NONE cterm=NONE
+hi PreProc guifg=#ffa8ff guibg=NONE guisp=NONE gui=NONE ctermfg=219 ctermbg=NONE cterm=NONE

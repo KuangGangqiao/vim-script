@@ -78,7 +78,6 @@ hi ModeMsg guifg=#00e0ff guibg=NONE guisp=NONE gui=NONE ctermfg=45 ctermbg=NONE 
 hi Define guifg=#ffb0ff guibg=NONE guisp=NONE gui=NONE ctermfg=219 ctermbg=NONE cterm=NONE
 hi Function guifg=#c0c0ff guibg=NONE guisp=NONE gui=NONE ctermfg=147 ctermbg=NONE cterm=NONE
 hi FoldColumn guifg=#9090ff guibg=#3c3c88 guisp=#3c3c88 gui=NONE ctermfg=105 ctermbg=60 cterm=NONE
-hi PreProc guifg=#ffb0ff guibg=NONE guisp=NONE gui=NONE ctermfg=219 ctermbg=NONE cterm=NONE
 hi Visual guifg=#ffffff guibg=#6060ff guisp=#6060ff gui=NONE ctermfg=15 ctermbg=63 cterm=NONE
 hi MoreMsg guifg=#00ffff guibg=#6060ff guisp=#6060ff gui=NONE ctermfg=14 ctermbg=63 cterm=NONE
 hi VertSplit guifg=#606080 guibg=#d0d0e0 guisp=#d0d0e0 gui=NONE ctermfg=60 ctermbg=146 cterm=NONE
@@ -265,3 +264,4 @@ hi done guifg=#CCEEFF guibg=#bebebe guisp=#bebebe gui=NONE ctermfg=195 ctermbg=7
 hi perlpod guifg=#B86A18 guibg=NONE guisp=NONE gui=NONE ctermfg=130 ctermbg=NONE cterm=NONE
 hi autohigroup guifg=NONE guibg=#ffff00 guisp=#ffff00 gui=NONE ctermfg=NONE ctermbg=11 cterm=NONE
 hi tags guifg=#ffa500 guibg=NONE guisp=NONE gui=NONE ctermfg=214 ctermbg=NONE cterm=NONE
+hi PreProc guifg=#ffb0ff guibg=NONE guisp=NONE gui=NONE ctermfg=219 ctermbg=NONE cterm=NONE
