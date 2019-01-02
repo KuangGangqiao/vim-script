@@ -20,3 +20,13 @@ set scrolloff=5
 set autochdir
 
 filetype plugin indent on
+
+let g:netrw_liststyle = 3
+let g:netrw_browse_split = 2
+let g:netrw_altv = 1
+let g:netrw_winsize = 25
+
+" augroup ProjectDrawer
+"   autocmd!
+"   autocmd VimEnter * :Vexplore
+" augroup END
