@@ -21,7 +21,7 @@ let g:dailyColor = {
     \ "Thu": "sea",
     \ "Fri": "pink",
     \ "Sta": "random-color",
-    \ "Sun": "summerfruit256",
+    \ "Sun": "default",
 \ }
 
 call GetTodayColor()
