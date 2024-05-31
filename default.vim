@@ -10,8 +10,7 @@ set tag=tags;/
 syn on se title
 set background=dark
 
-set list
-set list listchars=tab:»\ ,trail:.,extends:»,precedes:«
+set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<
 
 set fdm=marker
 set modeline
