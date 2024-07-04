@@ -15,6 +15,8 @@ set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<
 set fdm=marker
 set modeline
 
+set cursorline
+
 set scrolloff=5
 set autochdir
 
